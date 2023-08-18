@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="filmReel.png">
+    <title>Login</title>
+    <link rel="stylesheet" href="logincss.css"> 
+</head>
+<body>
+
+    <div class="log">
+        <fieldset>
+            <legend>Login</legend>
+            <br><br>
+            <div class="inputLog">
+                <input type="text" placeholder="Nome" id="nome">
+            </div>
+            <br><br>
+            <div class="inputLog"> 
+                <input type="password" placeholder="Senha" id="senha">
+            </div>
+            <br><br>
+            <button id="submit" onclick="logar()">Enviar</button>
+        </fieldset>
+    </div>
+
+    <script>
+        function logar() {
+            var nome = document.getElementById('nome').value;
+            var senha = document.getElementById("senha").value;
+
+            if (nome === "admin" && senha === "admin") {
+                alert('Login realizado com sucesso');
+                location.href = "index.html";
+            } else {
+                alert('Usuário ou senha incorretos'); 
+            }   
+        }
+    </script>
+
+</body>
+</html>

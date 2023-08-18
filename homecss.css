@@ -1,0 +1,84 @@
+/*CSS Definiçoes Gerais- inicio */
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb( 98, 0, 255);
+}
+
+h1{
+    font-size: 120%;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 120%;
+    text-align: center;
+    color: white; 
+}
+
+body, ul, li,p{
+margin: 0px;
+padding: 0px;
+font-size: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*CSS Cabeçalho - inicio */
+
+img{
+    max-width: 100%;
+    display: block;
+}
+/*CSS Definições Gereais - Fim */
+/*CSS flexbox 1 - inicio */
+header{
+    background-color: #808080;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:
+    space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.menu{
+    display: flex;
+}
+.menu li{
+ list-style: none;
+ margin-left: 10px;
+}
+
+/*CSS Cabeçalho - Fim */
+/*CSS Rodapé - inicio */
+
+.footer{
+    background-color: #808080;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:
+    space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+/*CSS Rodapé - fim */
+
+
+/*CSS flexbox 1 - inicio */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex> div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+/*CSS flexbox 1 - fim */

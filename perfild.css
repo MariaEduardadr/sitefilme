@@ -1,0 +1,29 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(98, 0, 255);
+}
+
+#perfilInfo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#87CEEB;
+    padding: 30px;
+}
+
+#perfilInfo{
+    border: 1px solid #1E90FF;
+    padding: auto;
+    text-align: center;
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 8px; 
+}
+
+
+
+
+
+
