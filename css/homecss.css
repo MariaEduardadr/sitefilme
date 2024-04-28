@@ -1,23 +1,34 @@
 /*CSS Definiçoes Gerais- inicio */
+:root{
+    --neon: #A5F1E9;
+    --white: #fff;
+    --main: #051527;
+    --light: #0A2647;
+    --black: #000;
+}
 html{
     height: 100%;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb( 98, 0, 255);
+    background-color: var(--black);
+}
+
+h4{
+    color: var(--neon);
 }
 
 h1{
     font-size: 120%;
     text-align: center;
-    color: white;
+    color: var(--white);
 }
 
 p{
     font-size: 120%;
     text-align: center;
-    color: white; 
+    color: var(--white); 
 }
 
 body, ul, li,p{
@@ -57,7 +68,7 @@ header{
 
 .footer{
     background-color: #808080;
-    color: white;
+    color: var(--white);
     display: flex;
     flex-wrap: wrap;
     justify-content:

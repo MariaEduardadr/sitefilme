@@ -1,0 +1,42 @@
+:root{
+    --neon: #A5F1E9;
+    --white: #fff;
+    --main: #051527;
+    --light: #0A2647;
+    --black: #000;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--black);
+}
+.navbar-toggler{
+    background-color: var(--main);
+}
+
+h1{
+    color: var(--neon);
+}
+
+h4{
+    color: var(--neon);
+}
+
+#card{
+    color: var(--white);
+    background: var(--main);
+    border: 2px solid var(--light);
+}
+
+footer{
+    color: var(--white);
+}
+
+@media ( min-width: 300px) and ( max-width: 800px){
+    #card{
+        margin-top: 20px;
+        width: 100%;
+    }
+   
+}
+
