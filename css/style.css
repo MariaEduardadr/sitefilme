@@ -11,7 +11,7 @@ body{
     background-color: var(--black);
 }
 .navbar-toggler{
-    background-color: var(--main);
+    background-color: var(--neon);
 }
 
 h1{

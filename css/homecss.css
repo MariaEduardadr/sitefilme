@@ -15,6 +15,10 @@ body{
     background-color: var(--black);
 }
 
+.navbar-toggler{
+    background-color: var(--neon);
+}
+
 h4{
     color: var(--neon);
 }
@@ -93,3 +97,10 @@ header{
     margin: 10px;
 }
 /*CSS flexbox 1 - fim */
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
